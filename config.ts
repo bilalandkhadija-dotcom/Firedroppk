@@ -18,7 +18,7 @@ export const STORE = {
     jazzcash: {
       label: "JazzCash",
       accountTitle: "FireDrop PK",
-      accountNumber: "03274961389",
+      accountNumber: "03452911049",
       color: "from-red-600 to-orange-500",
       dot: "bg-red-500",
     },
