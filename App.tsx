@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { PACKS, STORE, formatPKR, type DiamondPack } from "./config";
 import Checkout, { type Order } from "./components/Checkout";
+import Admin from "./Admin";
 import { BoltIcon, DiamondIcon, ShieldIcon, TagIcon, TelegramIcon, WalletIcon, WhatsAppIcon } from "./components/Icons";
 
 const ORDERS_KEY = "firedrop_orders";
@@ -36,7 +37,9 @@ export default function App() {
     ["Payment", "#payment"],
     ["FAQ", "#faq"],
   ];
-
+if (window.location.pathname === '/admin') {
+  return <Admin />;
+        }
   return (
     <div className="min-h-screen bg-[#0a0705] text-zinc-100 antialiased selection:bg-orange-500/40">
       {/* Top strip */}
