@@ -37,9 +37,9 @@ export default function App() {
     ["Payment", "#payment"],
     ["FAQ", "#faq"],
   ];
-if (window.location.pathname === '/admin') {
+  if (window.location.pathname.includes('/admin')) {
   return <Admin />;
-        }
+  }
   return (
     <div className="min-h-screen bg-[#0a0705] text-zinc-100 antialiased selection:bg-orange-500/40">
       {/* Top strip */}
