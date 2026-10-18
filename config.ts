@@ -43,11 +43,11 @@ export type DiamondPack = {
 };
 
 export const PACKS: DiamondPack[] = [
-  { id: "d100", diamonds: 100, price: 230, market: "PKR 200–250" },
-  { id: "d310", diamonds: 310, price: 700, market: "PKR 650–750", tag: "Best Seller" },
-  { id: "d520", diamonds: 520, price: 1150, market: "PKR 1,100–1,200" },
-  { id: "d1080", diamonds: 1080, price: 2350, market: "PKR 2,200–2,500", tag: "Popular" },
-  { id: "d2200", diamonds: 2200, price: 4700, market: "PKR 4,400–4,800", tag: "Best Value" },
+  { id: "d100", diamonds: 100, price: 250, market: "PKR 300–450" },
+  { id: "d310", diamonds: 310, price: 700, market: "PKR 750–850", tag: "Best Seller" },
+  { id: "d520", diamonds: 520, price: 1250, market: "PKR 1,300–1,600" },
+  { id: "d1080", diamonds: 1080, price: 2450, market: "PKR 2,600–3,500", tag: "Popular" },
+  { id: "d2200", diamonds: 2200, price: 4900, market: "PKR 4,4900–6,800", tag: "Best Value" },
 ];
 
 export const formatPKR = (n: number) => "PKR " + n.toLocaleString("en-PK");
