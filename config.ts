@@ -17,14 +17,14 @@ export const STORE = {
   payments: {
     jazzcash: {
       label: "JazzCash",
-      accountTitle: "FireDrop PK",
+      accountTitle: "NASEEM MANZOOR",
       accountNumber: "03452911049",
       color: "from-red-600 to-orange-500",
       dot: "bg-red-500",
     },
     easypaisa: {
       label: "Easypaisa",
-      accountTitle: "FireDrop PK",
+      accountTitle: "NASEEM MANZOOR",
       accountNumber: "03452911049",
       color: "from-emerald-600 to-green-500",
       dot: "bg-emerald-500",
